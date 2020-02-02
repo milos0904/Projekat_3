@@ -14,6 +14,8 @@ namespace BetPharm
             var connectionString = "mongodb://localhost/?safe=true";
             var client = new MongoClient(connectionString);
             return client.GetDatabase("apoteka");
+
+            
         }
     }
 }

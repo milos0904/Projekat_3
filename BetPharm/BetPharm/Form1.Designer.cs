@@ -31,6 +31,7 @@
             this.btnLekovi = new System.Windows.Forms.Button();
             this.btnProdaj = new System.Windows.Forms.Button();
             this.btnDodajRadnika = new System.Windows.Forms.Button();
+            this.btnListaLekova = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnLekovi
@@ -61,11 +62,22 @@
             this.btnDodajRadnika.Text = "Dodaj radnika";
             this.btnDodajRadnika.UseVisualStyleBackColor = true;
             // 
+            // btnListaLekova
+            // 
+            this.btnListaLekova.Location = new System.Drawing.Point(331, 46);
+            this.btnListaLekova.Name = "btnListaLekova";
+            this.btnListaLekova.Size = new System.Drawing.Size(117, 44);
+            this.btnListaLekova.TabIndex = 3;
+            this.btnListaLekova.Text = "Lista lekova";
+            this.btnListaLekova.UseVisualStyleBackColor = true;
+            this.btnListaLekova.Click += new System.EventHandler(this.btnListaLekova_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnListaLekova);
             this.Controls.Add(this.btnDodajRadnika);
             this.Controls.Add(this.btnProdaj);
             this.Controls.Add(this.btnLekovi);
@@ -80,6 +92,7 @@
         private System.Windows.Forms.Button btnLekovi;
         private System.Windows.Forms.Button btnProdaj;
         private System.Windows.Forms.Button btnDodajRadnika;
+        private System.Windows.Forms.Button btnListaLekova;
     }
 }
 
