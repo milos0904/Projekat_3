@@ -85,5 +85,10 @@ namespace BetPharm
             MessageBox.Show("Uspesno ste prodali lek. Zatvaram...");
             this.Close();
         }
+
+        private void SoldInfo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

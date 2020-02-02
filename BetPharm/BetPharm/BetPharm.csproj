@@ -91,6 +91,12 @@
     <Compile Include="Entities\Admin.cs" />
     <Compile Include="Entities\Sold.cs" />
     <Compile Include="Entities\Worker.cs" />
+    <Compile Include="EvidencijaOProdaji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EvidencijaOProdaji.Designer.cs">
+      <DependentUpon>EvidencijaOProdaji.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +141,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="editWorker.resx">
       <DependentUpon>editWorker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EvidencijaOProdaji.resx">
+      <DependentUpon>EvidencijaOProdaji.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

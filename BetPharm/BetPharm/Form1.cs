@@ -79,5 +79,11 @@ namespace BetPharm
             AddWorker add = new AddWorker();
             add.ShowDialog();
         }
+
+        private void btnEvidencija_Click(object sender, EventArgs e)
+        {
+            EvidencijaOProdaji ev = new EvidencijaOProdaji();
+            ev.ShowDialog();
+        }
     }
 }
