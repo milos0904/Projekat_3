@@ -28,7 +28,7 @@ namespace BetPharm
             InitializeComponent();          
         }
 
-        private void UcitajSviLekovi()
+        private void UcitajSveLekove()
         {
             var db = DataLayer.GetDataBase();
 
@@ -65,13 +65,13 @@ namespace BetPharm
              
             SoldInfo p = new SoldInfo(id);
             p.ShowDialog();
-            this.UcitajSviLekovi();
+            this.UcitajSveLekove();
            
         }
 
         private void MedicamentList_Load(object sender, EventArgs e)
         {
-            this.UcitajSviLekovi();
+            this.UcitajSveLekove();
         }
 
         private void btnProdajLek_Click(object sender, EventArgs e)

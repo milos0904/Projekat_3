@@ -91,6 +91,7 @@
             this.Name = "SoldInfo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Sold info";
+            this.Load += new System.EventHandler(this.SoldInfo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
