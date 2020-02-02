@@ -20,6 +20,7 @@ namespace BetPharm.Entities
         public double Pay { get; set; }
         public String Position { get; set; }
         public String WorkerCode { get; set; }
-
+        public DateTime? StoppedWorking { get; set; }
+        public bool Employed { get; set; }
     }
 }

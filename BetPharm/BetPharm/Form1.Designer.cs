@@ -37,24 +37,42 @@
             this.btnVanRokTrajanja = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.btnListaLekova = new System.Windows.Forms.Button();
+            this.btnEditWorkers = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnLekovi
             // 
             this.btnLekovi.Location = new System.Drawing.Point(0, 70);
             this.btnLekovi.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLekovi.Location = new System.Drawing.Point(26, 37);
+            this.btnLekovi.Margin = new System.Windows.Forms.Padding(2);
             this.btnLekovi.Name = "btnLekovi";
             this.btnLekovi.Size = new System.Drawing.Size(104, 22);
+            this.btnLekovi.Size = new System.Drawing.Size(104, 32);
             this.btnLekovi.TabIndex = 0;
             this.btnLekovi.Text = "Dodaj lek";
             this.btnLekovi.UseVisualStyleBackColor = true;
             this.btnLekovi.Click += new System.EventHandler(this.btnLekovi_Click);
             // 
+            // btnProdaj
+            // 
+            this.btnProdaj.Location = new System.Drawing.Point(26, 139);
+            this.btnProdaj.Margin = new System.Windows.Forms.Padding(2);
+            this.btnProdaj.Name = "btnProdaj";
+            this.btnProdaj.Size = new System.Drawing.Size(104, 31);
+            this.btnProdaj.TabIndex = 1;
+            this.btnProdaj.Text = "Prodaj lek";
+            this.btnProdaj.UseVisualStyleBackColor = true;
+            // 
             // btnDodajRadnika
             // 
+            this.btnDodajRadnika.Location = new System.Drawing.Point(26, 85);
+            this.btnDodajRadnika.Margin = new System.Windows.Forms.Padding(2);
             this.btnDodajRadnika.Location = new System.Drawing.Point(5, 18);
             this.btnDodajRadnika.Margin = new System.Windows.Forms.Padding(2);
             this.btnDodajRadnika.Name = "btnDodajRadnika";
+            this.btnDodajRadnika.Size = new System.Drawing.Size(105, 36);
             this.btnDodajRadnika.Size = new System.Drawing.Size(105, 26);
             this.btnDodajRadnika.TabIndex = 2;
             this.btnDodajRadnika.Text = "Dodaj radnika";
@@ -119,10 +137,28 @@
             this.btnVanRokTrajanja.UseVisualStyleBackColor = true;
             this.btnVanRokTrajanja.Click += new System.EventHandler(this.btnVanRokTrajanja_Click);
             // 
+            // btnEditWorkers
+            // 
+            this.btnEditWorkers.Location = new System.Drawing.Point(248, 85);
+            this.btnEditWorkers.Margin = new System.Windows.Forms.Padding(2);
+            this.btnEditWorkers.Name = "btnEditWorkers";
+            this.btnEditWorkers.Size = new System.Drawing.Size(88, 36);
+            this.btnEditWorkers.TabIndex = 4;
+            this.btnEditWorkers.Text = "Izmena radnika";
+            this.btnEditWorkers.UseVisualStyleBackColor = true;
+            this.btnEditWorkers.Click += new System.EventHandler(this.btnEditWorkers_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.btnEditWorkers);
+            this.Controls.Add(this.btnListaLekova);
+            this.Controls.Add(this.btnDodajRadnika);
+            this.Controls.Add(this.btnProdaj);
+            this.Controls.Add(this.btnLekovi);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.ClientSize = new System.Drawing.Size(615, 453);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -146,6 +182,8 @@
         private System.Windows.Forms.TextBox txtNazivLeka;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btnVanRokTrajanja;
+        private System.Windows.Forms.Button btnListaLekova;
+        private System.Windows.Forms.Button btnEditWorkers;
     }
 }
 

@@ -58,6 +58,7 @@
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(100, 20);
             this.txtName.TabIndex = 0;
+            this.txtName.TextChanged += new System.EventHandler(this.txtName_TextChanged);
             // 
             // txtPosition
             // 
@@ -65,6 +66,7 @@
             this.txtPosition.Name = "txtPosition";
             this.txtPosition.Size = new System.Drawing.Size(100, 20);
             this.txtPosition.TabIndex = 4;
+            this.txtPosition.TextChanged += new System.EventHandler(this.txtPosition_TextChanged);
             // 
             // txtAddress
             // 
@@ -72,6 +74,7 @@
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(100, 20);
             this.txtAddress.TabIndex = 5;
+            this.txtAddress.TextChanged += new System.EventHandler(this.txtAddress_TextChanged);
             // 
             // txtSurname
             // 
@@ -79,6 +82,7 @@
             this.txtSurname.Name = "txtSurname";
             this.txtSurname.Size = new System.Drawing.Size(100, 20);
             this.txtSurname.TabIndex = 6;
+            this.txtSurname.TextChanged += new System.EventHandler(this.txtSurname_TextChanged);
             // 
             // label1
             // 
@@ -88,6 +92,7 @@
             this.label1.Size = new System.Drawing.Size(27, 13);
             this.label1.TabIndex = 7;
             this.label1.Text = "Ime:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -97,6 +102,7 @@
             this.label2.Size = new System.Drawing.Size(47, 13);
             this.label2.TabIndex = 8;
             this.label2.Text = "Prezime:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -106,6 +112,7 @@
             this.label3.Size = new System.Drawing.Size(43, 13);
             this.label3.TabIndex = 9;
             this.label3.Text = "Adresa:";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -115,6 +122,7 @@
             this.label4.Size = new System.Drawing.Size(50, 13);
             this.label4.TabIndex = 10;
             this.label4.Text = "Pozocija:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // dtpBirth
             // 
@@ -123,6 +131,7 @@
             this.dtpBirth.Name = "dtpBirth";
             this.dtpBirth.Size = new System.Drawing.Size(100, 20);
             this.dtpBirth.TabIndex = 11;
+            this.dtpBirth.ValueChanged += new System.EventHandler(this.dtpBirth_ValueChanged);
             // 
             // dtpEmploy
             // 
@@ -130,6 +139,7 @@
             this.dtpEmploy.Name = "dtpEmploy";
             this.dtpEmploy.Size = new System.Drawing.Size(222, 20);
             this.dtpEmploy.TabIndex = 12;
+            this.dtpEmploy.ValueChanged += new System.EventHandler(this.dtpEmploy_ValueChanged);
             // 
             // label5
             // 
@@ -139,6 +149,7 @@
             this.label5.Size = new System.Drawing.Size(81, 13);
             this.label5.TabIndex = 13;
             this.label5.Text = "Datum rodjenja:";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -148,6 +159,7 @@
             this.label6.Size = new System.Drawing.Size(94, 13);
             this.label6.TabIndex = 15;
             this.label6.Text = "Datum zaposlenja:";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 
@@ -157,6 +169,7 @@
             this.label7.Size = new System.Drawing.Size(34, 13);
             this.label7.TabIndex = 16;
             this.label7.Text = "Plata:";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label8
             // 
@@ -166,6 +179,7 @@
             this.label8.Size = new System.Drawing.Size(68, 13);
             this.label8.TabIndex = 18;
             this.label8.Text = "Sifra admina:";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // txtCodeAdmin
             // 
@@ -173,6 +187,7 @@
             this.txtCodeAdmin.Name = "txtCodeAdmin";
             this.txtCodeAdmin.Size = new System.Drawing.Size(222, 20);
             this.txtCodeAdmin.TabIndex = 17;
+            this.txtCodeAdmin.TextChanged += new System.EventHandler(this.txtCodeAdmin_TextChanged);
             // 
             // btnAddWorker
             // 
@@ -195,6 +210,7 @@
             this.cbSex.Size = new System.Drawing.Size(121, 21);
             this.cbSex.TabIndex = 20;
             this.cbSex.Text = "M";
+            this.cbSex.SelectedIndexChanged += new System.EventHandler(this.cbSex_SelectedIndexChanged);
             // 
             // label9
             // 
@@ -204,6 +220,7 @@
             this.label9.Size = new System.Drawing.Size(25, 13);
             this.label9.TabIndex = 21;
             this.label9.Text = "Pol:";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // numPay
             // 
@@ -216,6 +233,7 @@
             this.numPay.Name = "numPay";
             this.numPay.Size = new System.Drawing.Size(101, 20);
             this.numPay.TabIndex = 22;
+            this.numPay.ValueChanged += new System.EventHandler(this.numPay_ValueChanged);
             // 
             // label10
             // 
@@ -225,6 +243,7 @@
             this.label10.Size = new System.Drawing.Size(81, 13);
             this.label10.TabIndex = 24;
             this.label10.Text = "Kod za radnika:";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // txtCode
             // 
@@ -232,12 +251,13 @@
             this.txtCode.Name = "txtCode";
             this.txtCode.Size = new System.Drawing.Size(222, 20);
             this.txtCode.TabIndex = 23;
+            this.txtCode.TextChanged += new System.EventHandler(this.txtCode_TextChanged);
             // 
             // AddWorker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(310, 414);
+            this.ClientSize = new System.Drawing.Size(277, 393);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.txtCode);
             this.Controls.Add(this.numPay);

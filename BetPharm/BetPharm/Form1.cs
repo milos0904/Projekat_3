@@ -69,5 +69,17 @@ namespace BetPharm
             IstekaoRokTrajanja i = new IstekaoRokTrajanja();
             i.ShowDialog();
         }
+
+        private void btnDodajRadnika_Click(object sender, EventArgs e)
+        {
+            AddWorker w = new AddWorker();
+            w.ShowDialog();
+        }
+
+        private void btnEditWorkers_Click(object sender, EventArgs e)
+        {
+            ViewAndEditWorker w = new ViewAndEditWorker();
+            w.ShowDialog();
+        }
     }
 }
