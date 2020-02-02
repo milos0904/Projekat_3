@@ -1,6 +1,6 @@
 ﻿namespace BetPharm
 {
-    partial class MedicamentList
+    partial class IstekaoRokTrajanja
     {
         /// <summary>
         /// Required designer variable.
@@ -39,14 +39,11 @@
             this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.btnProdajLek = new System.Windows.Forms.Button();
+            this.btnUkloniLek = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listView1
             // 
-            this.listView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2,
@@ -59,10 +56,9 @@
             this.columnHeader9,
             this.columnHeader10});
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(11, 7);
-            this.listView1.Margin = new System.Windows.Forms.Padding(2);
+            this.listView1.Location = new System.Drawing.Point(12, 12);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(741, 347);
+            this.listView1.Size = new System.Drawing.Size(688, 426);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -74,7 +70,6 @@
             // columnHeader2
             // 
             this.columnHeader2.Text = "Proizvodjac";
-            this.columnHeader2.Width = 84;
             // 
             // columnHeader3
             // 
@@ -107,32 +102,28 @@
             // columnHeader10
             // 
             this.columnHeader10.Text = "Id leka";
-            this.columnHeader10.Width = 56;
             // 
-            // btnProdajLek
+            // btnUkloniLek
             // 
-            this.btnProdajLek.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnProdajLek.Location = new System.Drawing.Point(757, 320);
-            this.btnProdajLek.Name = "btnProdajLek";
-            this.btnProdajLek.Size = new System.Drawing.Size(95, 35);
-            this.btnProdajLek.TabIndex = 1;
-            this.btnProdajLek.Text = "Prodaj lek";
-            this.btnProdajLek.UseVisualStyleBackColor = true;
-            this.btnProdajLek.Click += new System.EventHandler(this.btnProdajLek_Click);
+            this.btnUkloniLek.Location = new System.Drawing.Point(706, 411);
+            this.btnUkloniLek.Name = "btnUkloniLek";
+            this.btnUkloniLek.Size = new System.Drawing.Size(82, 27);
+            this.btnUkloniLek.TabIndex = 1;
+            this.btnUkloniLek.Text = "Ukloni lek";
+            this.btnUkloniLek.UseVisualStyleBackColor = true;
+            this.btnUkloniLek.Click += new System.EventHandler(this.btnUkloniLek_Click);
             // 
-            // MedicamentList
+            // IstekaoRokTrajanja
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(853, 365);
-            this.Controls.Add(this.btnProdajLek);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnUkloniLek);
             this.Controls.Add(this.listView1);
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.MaximizeBox = false;
-            this.Name = "MedicamentList";
+            this.Name = "IstekaoRokTrajanja";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Medicament list";
-            this.Load += new System.EventHandler(this.MedicamentList_Load);
+            this.Text = "IstekaoRokTrajanja";
+            this.Load += new System.EventHandler(this.IstekaoRokTrajanja_Load);
             this.ResumeLayout(false);
 
         }
@@ -149,7 +140,7 @@
         private System.Windows.Forms.ColumnHeader columnHeader7;
         private System.Windows.Forms.ColumnHeader columnHeader8;
         private System.Windows.Forms.ColumnHeader columnHeader9;
-        private System.Windows.Forms.Button btnProdajLek;
         private System.Windows.Forms.ColumnHeader columnHeader10;
+        private System.Windows.Forms.Button btnUkloniLek;
     }
 }

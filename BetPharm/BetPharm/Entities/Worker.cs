@@ -14,6 +14,7 @@ namespace BetPharm.Entities
         public String Surname { get; set; }
         public DateTime DateBirth { get; set; }
         public DateTime DateEmployment { get; set; }
+        public DateTime DateRelease { get; set; }
         public String Sex { get; set; }
         public String Address { get; set; }
         public double Pay { get; set; }

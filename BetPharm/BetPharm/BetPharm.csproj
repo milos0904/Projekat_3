@@ -92,6 +92,12 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Entities\Medicament.cs" />
+    <Compile Include="IstekaoRokTrajanja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IstekaoRokTrajanja.Designer.cs">
+      <DependentUpon>IstekaoRokTrajanja.cs</DependentUpon>
+    </Compile>
     <Compile Include="MedicamentForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,12 @@
     <Compile Include="MedicamentList.Designer.cs">
       <DependentUpon>MedicamentList.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProdajaInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProdajaInfo.Designer.cs">
+      <DependentUpon>ProdajaInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddWorker.resx">
@@ -112,11 +124,17 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="IstekaoRokTrajanja.resx">
+      <DependentUpon>IstekaoRokTrajanja.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MedicamentForm.resx">
       <DependentUpon>MedicamentForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MedicamentList.resx">
       <DependentUpon>MedicamentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProdajaInfo.resx">
+      <DependentUpon>ProdajaInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

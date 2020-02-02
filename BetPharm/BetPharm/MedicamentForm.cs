@@ -41,33 +41,57 @@ namespace BetPharm
             var radniciCollection = database.GetCollection<Worker>("radnici");
             var workers = from radnik in radniciCollection.AsQueryable<Worker>() select radnik;
 
-      
+            bool fleg = false;
             foreach (Worker w in workers)
             {
-                if (w.WorkerCode.Equals(txtKodRadnika))
+                if (w.WorkerCode.Equals(txtKodRadnika.Text))
                 {
                     m.Worker = new MongoDBRef("radnici", w.Id);
+                    fleg = true;
                     break;
                 }
             }
+            if (fleg)
+            {
+                var collection = database.GetCollection<Medicament>("lekovi");
+                collection.Insert(m);
+                fleg = false;
 
-            var collection = database.GetCollection<Medicament>("lekovi");
-            collection.Insert(m);
+                MessageBox.Show("Uspesno ste dodali lek");
 
-            MessageBox.Show("Uspesno ste dodali lek");
-
-            txtNaziv.Text = "";
-            txtProizvodjac.Text = "";
-            DateTimeRokTrajanja.Value = System.DateTime.Now;
-            dateTimeDatumDospeca.Value = System.DateTime.Now;
-            cmbFarmaceutskiOblik.Text = "Tableta";
-            numericUpDownDDD.Value = 0;
-            numericUpDownCena.Value = 0;
-            numericUpDownKolicina.Value = 0;
-            txtKodRadnika.Text = "";
-            txtOdobrio.Text = "";
-
+                txtNaziv.Text = "";
+                txtProizvodjac.Text = "";
+                DateTimeRokTrajanja.Value = System.DateTime.Now;
+                dateTimeDatumDospeca.Value = System.DateTime.Now;
+                cmbFarmaceutskiOblik.Text = "Tableta";
+                numericUpDownDDD.Value = 0;
+                numericUpDownCena.Value = 0;
+                numericUpDownKolicina.Value = 0;
+                txtKodRadnika.Text = "";
+                txtOdobrio.Text = "";
+            }
+            else
+                MessageBox.Show("Ne postoji radnik sa tim kodom.");
+            
             //Close();
+        }
+
+        private void txtNaziv_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsDigit(e.KeyChar))
+                e.Handled = true;
+        }
+
+        private void txtProizvodjac_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsDigit(e.KeyChar))
+                e.Handled = true;
+        }
+
+        private void txtOdobrio_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsDigit(e.KeyChar))
+                e.Handled = true;
         }
     }
 }

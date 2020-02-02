@@ -194,6 +194,7 @@
             this.cbSex.Name = "cbSex";
             this.cbSex.Size = new System.Drawing.Size(121, 21);
             this.cbSex.TabIndex = 20;
+            this.cbSex.Text = "M";
             // 
             // label9
             // 
@@ -236,7 +237,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(310, 454);
+            this.ClientSize = new System.Drawing.Size(310, 414);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.txtCode);
             this.Controls.Add(this.numPay);
@@ -258,8 +259,11 @@
             this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.txtPosition);
             this.Controls.Add(this.txtName);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "AddWorker";
-            this.Text = "AddWorker";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Worker form";
             ((System.ComponentModel.ISupportInitialize)(this.numPay)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
