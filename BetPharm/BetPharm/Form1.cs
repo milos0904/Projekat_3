@@ -33,7 +33,7 @@ namespace BetPharm
         {
             MedicamentList m = new MedicamentList();
             m.ShowDialog(); 
-            //ttt
+            
 
         }
     }
