@@ -24,11 +24,15 @@ namespace BetPharm
 
       
         private void btnLekovi_Click(object sender, EventArgs e)
-        {
-            var connectionString = "mongodb://localhost/?safe=true";
+        {          
+            MedicamentForm medicamentForm = new MedicamentForm();
+            medicamentForm.ShowDialog();
+        }
 
-            var client = new MongoClient(connectionString);
-            var database = client.GetDatabase("apoteka");
+        private void btnListaLekova_Click(object sender, EventArgs e)
+        {
+            MedicamentList m = new MedicamentList();
+            m.ShowDialog();
         }
     }
 }

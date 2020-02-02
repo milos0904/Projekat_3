@@ -56,3 +56,5 @@ C:\Users\Dejan\Desktop\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.csproj.Ge
 C:\Users\Dejan\Desktop\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.csproj.CopyComplete
 C:\Users\Dejan\Desktop\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.exe
 C:\Users\Dejan\Desktop\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.pdb
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.MedicamentForm.resources
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.MedicamentList.resources
