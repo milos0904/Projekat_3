@@ -58,3 +58,5 @@ E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Driver.pdb
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.SoldInfo.resources
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.IstekaoRokTrajanja.resources
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.editWorker.resources
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.ViewAndEditWorker.resources

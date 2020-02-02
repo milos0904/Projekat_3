@@ -34,11 +34,7 @@ namespace BetPharm
 
         }
 
-        private void btnDodajRadnika_Click(object sender, EventArgs e)
-        {
-            AddWorker add = new AddWorker();
-            add.ShowDialog();
-        }
+        
 
         private void btnPronadjiLek_Click(object sender, EventArgs e)
         {
@@ -70,16 +66,18 @@ namespace BetPharm
             i.ShowDialog();
         }
 
-        private void btnDodajRadnika_Click(object sender, EventArgs e)
-        {
-            AddWorker w = new AddWorker();
-            w.ShowDialog();
-        }
+      
 
         private void btnEditWorkers_Click(object sender, EventArgs e)
         {
             ViewAndEditWorker w = new ViewAndEditWorker();
             w.ShowDialog();
+        }
+
+        private void btnDodajRadnika_Click_1(object sender, EventArgs e)
+        {
+            AddWorker add = new AddWorker();
+            add.ShowDialog();
         }
     }
 }
