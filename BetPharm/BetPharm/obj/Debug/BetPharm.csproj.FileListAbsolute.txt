@@ -9,10 +9,7 @@ E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\Crc32C.NET.dll
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\DnsClient.dll
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Bson.dll
-E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Driver.Core.dll
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Driver.dll
-E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Driver.Legacy.dll
-E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Libmongocrypt.dll
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\SharpCompress.dll
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\Snappy.NET.dll
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\System.Buffers.dll
@@ -20,8 +17,6 @@ E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\DnsClient.xml
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Bson.xml
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Driver.xml
-E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Driver.Core.xml
-E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Driver.Legacy.xml
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\Snappy.NET.xml
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\System.Buffers.xml
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.csproj.CopyComplete
@@ -58,3 +53,6 @@ C:\Users\Dejan\Desktop\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.exe
 C:\Users\Dejan\Desktop\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.pdb
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.MedicamentForm.resources
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.MedicamentList.resources
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.AddWorker.resources
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Bson.pdb
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Driver.pdb

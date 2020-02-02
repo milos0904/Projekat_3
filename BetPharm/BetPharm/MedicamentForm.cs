@@ -1,5 +1,6 @@
 ﻿using BetPharm.Entities;
 using MongoDB.Driver;
+using MongoDB.Driver.Linq;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -51,7 +52,7 @@ namespace BetPharm
             }
 
             var collection = database.GetCollection<Medicament>("lekovi");
-            collection.InsertOne(m);
+            collection.Insert(m);
 
             MessageBox.Show("Uspesno ste dodali lek");
 

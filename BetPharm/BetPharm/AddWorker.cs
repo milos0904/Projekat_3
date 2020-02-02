@@ -9,8 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MongoDB.Driver;
-using MongoDB.Driver.Builders;
-using MongoDB.Bson;
+using MongoDB.Driver.Linq;
 
 namespace BetPharm
 {
@@ -33,7 +32,7 @@ namespace BetPharm
 
         private void btnAddWorker_Click(object sender, EventArgs e)
         {
-            IMongoDatabase db = DataLayer.GetDataBase();
+            MongoDatabase db = DataLayer.GetDataBase();
             var collection = db.GetCollection<Worker>("radnici");
             var collectionAdmin = db.GetCollection<Admin>("Admin");
 
@@ -56,7 +55,7 @@ namespace BetPharm
                 WorkerCode = txtCode.Text
             };
 
-            collection.InsertOne(worker);
+            collection.Insert(worker);
 
         }
      }

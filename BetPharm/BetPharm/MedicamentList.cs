@@ -16,5 +16,22 @@ namespace BetPharm
         {
             InitializeComponent();
         }
+
+        private void UcitajSviLekovi()
+        {
+            var db = DataLayer.GetDataBase();
+
+            var collection = db.GetCollection<Medicament>("lekovi");
+
+            //var lekovi = from radnik in collection.AsQueryable<Worker>() select radnik;
+
+            //foreach (Medicament m in collection.)
+        }
+
+
+        private void MedicamentList_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

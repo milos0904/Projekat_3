@@ -1,4 +1,5 @@
-﻿using MongoDB.Driver;
+﻿using MongoDB.Bson;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +10,10 @@ namespace BetPharm
 {
     public class DataLayer
     {
-        public static IMongoDatabase GetDataBase()
+        public static MongoDatabase  GetDataBase()
         {
             var connectionString = "mongodb://localhost/?safe=true";
-            var client = new MongoClient(connectionString);
+            var client = MongoServer.Create(connectionString);
             return client.GetDatabase("apoteka");
 
             
