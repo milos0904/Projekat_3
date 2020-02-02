@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MongoDB.Bson;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,7 @@ namespace BetPharm.Entities
 {
     public class Admin
     {
+        public ObjectId Id { get; set; }
         public String AdminCode { get; set; }
     }
 }
