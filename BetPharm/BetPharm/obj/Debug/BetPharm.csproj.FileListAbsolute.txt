@@ -85,3 +85,4 @@ E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPhar
 E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.csproj.CopyComplete
 E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.exe
 E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.pdb
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.AddWorker.resources
