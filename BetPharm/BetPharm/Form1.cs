@@ -32,7 +32,8 @@ namespace BetPharm
         private void btnListaLekova_Click(object sender, EventArgs e)
         {
             MedicamentList m = new MedicamentList();
-            m.ShowDialog();
+            m.ShowDialog(); 
+            //
 
         }
     }
