@@ -16,6 +16,7 @@ namespace BetPharm
     {
         public Form1()
         {
+            
             InitializeComponent();
         }
 
@@ -34,7 +35,7 @@ namespace BetPharm
 
         }
 
-        
+
 
         private void btnPronadjiLek_Click(object sender, EventArgs e)
         {
@@ -66,7 +67,7 @@ namespace BetPharm
             i.ShowDialog();
         }
 
-      
+
 
         private void btnEditWorkers_Click(object sender, EventArgs e)
         {
@@ -74,16 +75,15 @@ namespace BetPharm
             w.ShowDialog();
         }
 
-        private void btnDodajRadnika_Click_1(object sender, EventArgs e)
-        {
-            AddWorker add = new AddWorker();
-            add.ShowDialog();
-        }
-
         private void btnEvidencija_Click(object sender, EventArgs e)
         {
-            EvidencijaOProdaji ev = new EvidencijaOProdaji();
-            ev.ShowDialog();
+            EvidencijaOProdaji f = new EvidencijaOProdaji();
+            f.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

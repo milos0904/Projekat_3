@@ -11,7 +11,9 @@ namespace BetPharm.Entities
     {
         public ObjectId Id { get; set; }
         public String Name { get; set; }
+        public String Type { get; set; }
         public String Surname { get; set; }
+        public String UserName { get; set; }
         public DateTime DateBirth { get; set; }
         public DateTime DateEmployment { get; set; }
         public DateTime DateRelease { get; set; }

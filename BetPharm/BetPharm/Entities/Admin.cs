@@ -10,6 +10,8 @@ namespace BetPharm.Entities
     public class Admin
     {
         public ObjectId Id { get; set; }
+        public String Type { get; set; }
+        public String UserName { get; set; }
         public String AdminCode { get; set; }
     }
 }

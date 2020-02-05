@@ -34,8 +34,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.cbSex = new System.Windows.Forms.ComboBox();
             this.btnEditWorker = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtCodeAdmin = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -52,21 +50,23 @@
             this.label11 = new System.Windows.Forms.Label();
             this.dtpStopWork = new System.Windows.Forms.DateTimePicker();
             this.cbEmployed = new System.Windows.Forms.CheckBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtUsername = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.numPay)).BeginInit();
             this.SuspendLayout();
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(21, 268);
+            this.label10.Location = new System.Drawing.Point(22, 304);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(81, 13);
+            this.label10.Size = new System.Drawing.Size(67, 13);
             this.label10.TabIndex = 45;
-            this.label10.Text = "Kod za radnika:";
+            this.label10.Text = "Kod radnika:";
             // 
             // txtCode
             // 
-            this.txtCode.Location = new System.Drawing.Point(23, 284);
+            this.txtCode.Location = new System.Drawing.Point(24, 320);
             this.txtCode.Name = "txtCode";
             this.txtCode.Size = new System.Drawing.Size(222, 20);
             this.txtCode.TabIndex = 44;
@@ -105,29 +105,13 @@
             // 
             // btnEditWorker
             // 
-            this.btnEditWorker.Location = new System.Drawing.Point(23, 437);
+            this.btnEditWorker.Location = new System.Drawing.Point(25, 428);
             this.btnEditWorker.Name = "btnEditWorker";
             this.btnEditWorker.Size = new System.Drawing.Size(222, 23);
             this.btnEditWorker.TabIndex = 40;
             this.btnEditWorker.Text = "Izmeni";
             this.btnEditWorker.UseVisualStyleBackColor = true;
             this.btnEditWorker.Click += new System.EventHandler(this.btnEditWorker_Click);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(21, 396);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(68, 13);
-            this.label8.TabIndex = 39;
-            this.label8.Text = "Sifra admina:";
-            // 
-            // txtCodeAdmin
-            // 
-            this.txtCodeAdmin.Location = new System.Drawing.Point(23, 412);
-            this.txtCodeAdmin.Name = "txtCodeAdmin";
-            this.txtCodeAdmin.Size = new System.Drawing.Size(222, 20);
-            this.txtCodeAdmin.TabIndex = 38;
             // 
             // label7
             // 
@@ -238,7 +222,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(21, 314);
+            this.label11.Location = new System.Drawing.Point(22, 353);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(134, 13);
             this.label11.TabIndex = 47;
@@ -246,7 +230,7 @@
             // 
             // dtpStopWork
             // 
-            this.dtpStopWork.Location = new System.Drawing.Point(23, 330);
+            this.dtpStopWork.Location = new System.Drawing.Point(24, 369);
             this.dtpStopWork.Name = "dtpStopWork";
             this.dtpStopWork.Size = new System.Drawing.Size(222, 20);
             this.dtpStopWork.TabIndex = 46;
@@ -254,18 +238,36 @@
             // cbEmployed
             // 
             this.cbEmployed.AutoSize = true;
-            this.cbEmployed.Location = new System.Drawing.Point(24, 356);
+            this.cbEmployed.Location = new System.Drawing.Point(25, 395);
             this.cbEmployed.Name = "cbEmployed";
             this.cbEmployed.Size = new System.Drawing.Size(115, 17);
             this.cbEmployed.TabIndex = 49;
             this.cbEmployed.Text = "Radnik je otpusten";
             this.cbEmployed.UseVisualStyleBackColor = true;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(22, 262);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(116, 13);
+            this.label8.TabIndex = 51;
+            this.label8.Text = "Korisnicko ime radnika:";
+            // 
+            // txtUsername
+            // 
+            this.txtUsername.Location = new System.Drawing.Point(24, 278);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(222, 20);
+            this.txtUsername.TabIndex = 50;
+            // 
             // editWorker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(276, 474);
+            this.ClientSize = new System.Drawing.Size(276, 460);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.cbEmployed);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.dtpStopWork);
@@ -275,8 +277,6 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.cbSex);
             this.Controls.Add(this.btnEditWorker);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.txtCodeAdmin);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -306,8 +306,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.ComboBox cbSex;
         private System.Windows.Forms.Button btnEditWorker;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox txtCodeAdmin;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
@@ -324,5 +322,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.DateTimePicker dtpStopWork;
         private System.Windows.Forms.CheckBox cbEmployed;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtUsername;
     }
 }

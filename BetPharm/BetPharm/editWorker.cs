@@ -27,6 +27,7 @@ namespace BetPharm
             dtpEmploy.Value = worker.DateEmployment;
             cbSex.Text = worker.Sex;
             txtAddress.Text = worker.Address;
+            txtUsername.Text = worker.UserName;
             numPay.Value = (decimal)worker.Pay;
             txtPosition.Text = worker.Position;
             txtCode.Text = worker.WorkerCode;
@@ -48,25 +49,33 @@ namespace BetPharm
             var collectionAdmin = db.GetCollection<Admin>("admin");
 
 
-            Admin admin = collectionAdmin.FindOne(Query.EQ("AdminCode", BsonValue.Create(txtCodeAdmin.Text)));
 
-            if (admin != null)
+
+
+            var query = Query.EQ("_id", worker.Id);
+            UpdateBuilder update = MongoDB.Driver.Builders.Update.Set("Name", txtName.Text);
+            update.Set("Surname", txtSurname.Text);
+            update.Set("DateBirth", dtpBirth.Value);
+            update.Set("DateEmployment", dtpEmploy.Value);
+            update.Set("Sex", cbSex.Text);
+            update.Set("Address", txtAddress.Text);
+            update.Set("Pay", (double)numPay.Value);
+            update.Set("Position", txtPosition.Text);
+            update.Set("StoppedWorking", dtpStopWork.Value);
+            update.Set("WorkerCode", txtCode.Text);
+            update.Set("UserName", txtUsername.Text);
+            update.Set("Employed", !cbEmployed.Checked);
+            if (txtUsername.Text == worker.UserName)
             {
-            
-
-                var query = Query.EQ("_id", worker.Id);
-                UpdateBuilder update = MongoDB.Driver.Builders.Update.Set("Name", txtName.Text);
-                update.Set("Surname", txtSurname.Text);
-                update.Set("DateBirth", dtpBirth.Value);
-                update.Set("DateEmployment", dtpEmploy.Value);
-                update.Set("Sex", cbSex.Text);
-                update.Set("Address", txtAddress.Text);
-                update.Set("Pay", (double)numPay.Value);
-                update.Set("Position", txtPosition.Text);
-                update.Set("StoppedWorking", dtpStopWork.Value);
-                update.Set("WorkerCode", txtCode.Text);
-                update.Set("Employed", !cbEmployed.Checked);
-                if (txtCode.Text == worker.WorkerCode)
+                collection.Update(query, update);
+                MessageBox.Show("Uspesno ste izmenili informacije o radniku");
+                this.Close();
+            }
+            else
+            {
+                Worker w = collection.FindOne(Query.EQ("UserName", BsonValue.Create(txtUsername.Text)));
+                Admin a = collectionAdmin.FindOne(Query.EQ("UserName", BsonValue.Create(txtUsername.Text)));
+                if (w == null && a == null)
                 {
                     collection.Update(query, update);
                     MessageBox.Show("Uspesno ste izmenili informacije o radniku");
@@ -74,23 +83,11 @@ namespace BetPharm
                 }
                 else
                 {
-                    Worker w = collection.FindOne(Query.EQ("WorkerCode", BsonValue.Create(txtCode.Text)));
-                    if(w == null)
-                    {
-                        collection.Update(query, update);
-                        MessageBox.Show("Uspesno ste izmenili informacije o radniku");
-                        this.Close();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Unesite neki drugi kod za radnika.");
-                    }
+                    MessageBox.Show("Unesite neki drugi kod za radnika.");
                 }
             }
-            else
-            {
-                MessageBox.Show("Niste administrator!");
-            }
+
         }
+
     }
 }

@@ -104,11 +104,23 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Entities\Medicament.cs" />
+    <Compile Include="FormForAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormForAdmin.Designer.cs">
+      <DependentUpon>FormForAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="IstekaoRokTrajanja.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="IstekaoRokTrajanja.Designer.cs">
       <DependentUpon>IstekaoRokTrajanja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="MedicamentForm.cs">
       <SubType>Form</SubType>
@@ -148,8 +160,14 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormForAdmin.resx">
+      <DependentUpon>FormForAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="IstekaoRokTrajanja.resx">
       <DependentUpon>IstekaoRokTrajanja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MedicamentForm.resx">
       <DependentUpon>MedicamentForm.cs</DependentUpon>
