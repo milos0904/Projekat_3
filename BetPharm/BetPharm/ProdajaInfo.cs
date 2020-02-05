@@ -35,10 +35,12 @@ namespace BetPharm
             if(numericUpDown1.Value == 0 )
             {
                 MessageBox.Show("Kolicina mora biti veca od 0");
+                return;
             }
             if( textBox1.Text == "")
             {
                 MessageBox.Show("Unesite vas kod");
+                return;
             }
 
             var collectionWorker = db.GetCollection<Worker>("radnici");
