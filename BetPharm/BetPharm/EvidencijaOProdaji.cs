@@ -41,7 +41,7 @@ namespace BetPharm
                 var collectionW = db.GetCollection<Worker>(s.Worker.CollectionName);
                 var query1 = Query.EQ("_id", s.Worker.Id);
                 Worker w = collectionW.FindOne(query1);
-                ListViewItem item = new ListViewItem(new string[] { m.Name, m.Quantity.ToString(), m.Price.ToString(), m.Producer, w.Name + " " + w.Surname, s.DateOfSale.ToShortDateString()});
+                ListViewItem item = new ListViewItem(new string[] { m.Name, s.Quantity.ToString(), m.Price.ToString(), m.Producer, w.Name + " " + w.Surname, s.DateOfSale.ToShortDateString()});
                 listView1.Items.Add(item);
 
             }

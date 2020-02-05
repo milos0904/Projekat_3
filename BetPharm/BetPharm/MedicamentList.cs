@@ -41,7 +41,7 @@ namespace BetPharm
                 {
                     if(m.Quantity > 0)
                     {
-                        ListViewItem item = new ListViewItem(new string[] { m.Name, m.Producer, m.ExpirationDate.ToString(), m.MaturityDate.ToString(), m.PharmaceuticalForm, m.Approved, m.DDD.ToString(), m.Price.ToString(), m.Quantity.ToString(), m.Id.ToString() }); ;
+                        ListViewItem item = new ListViewItem(new string[] { m.Name, m.Producer, m.ExpirationDate.ToShortDateString(), m.MaturityDate.ToShortDateString(), m.PharmaceuticalForm, m.Approved, m.DDD.ToString(), m.Price.ToString(), m.Quantity.ToString(), m.Id.ToString() }); ;
                         listView1.Items.Add(item);
                     }                    
                 }
@@ -52,7 +52,7 @@ namespace BetPharm
                 {
                     if (m.Quantity > 0)
                     {
-                        ListViewItem item = new ListViewItem(new string[] { m.Name, m.Producer, m.ExpirationDate.ToString(), m.MaturityDate.ToString(), m.PharmaceuticalForm, m.Approved, m.DDD.ToString(), m.Price.ToString(), m.Quantity.ToString(), m.Id.ToString() }); ;
+                        ListViewItem item = new ListViewItem(new string[] { m.Name, m.Producer, m.ExpirationDate.ToShortDateString(), m.MaturityDate.ToShortDateString(), m.PharmaceuticalForm, m.Approved, m.DDD.ToString(), m.Price.ToString(), m.Quantity.ToString(), m.Id.ToString() }); ;
                         listView1.Items.Add(item);
                     }
                 }
