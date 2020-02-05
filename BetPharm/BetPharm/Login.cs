@@ -33,12 +33,19 @@ namespace BetPharm
             {
                 if (w.WorkerCode == txtCode.Text)
                 {
-                    this.Hide();
-                    Form1 f = new Form1();
-                    f.ShowDialog();
-                    txtUsername.Text = "";
-                    txtCode.Text = "";
-                    this.Show();
+                    if (w.Employed == true)
+                    {
+                        this.Hide();
+                        Form1 f = new Form1();
+                        f.ShowDialog();
+                        txtUsername.Text = "";
+                        txtCode.Text = "";
+                        this.Show();
+                    }
+                    else 
+                    {
+                        MessageBox.Show("Vas nalog vise nije u funkciji");  //ako je radnik dao otkaz
+                    }
                 }
                 else
                 {
