@@ -21,7 +21,7 @@ namespace BetPharm
         {
             InitializeComponent();
 
-            MongoDatabase db = DataLayer.GetDataBase();
+            /*MongoDatabase db = DataLayer.GetDataBase();
             var collection = db.GetCollection<Admin>("admin");
 
             Admin admin = new Admin
@@ -31,7 +31,7 @@ namespace BetPharm
                 AdminCode = "123456"
             };
 
-            collection.Insert(admin);
+            collection.Insert(admin);*/
         }
 
 
