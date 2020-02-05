@@ -1,4 +1,5 @@
-﻿using MongoDB.Driver;
+﻿using MongoDB.Bson;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace BetPharm.Entities
 {
     public class Sold
     {
+        public ObjectId Id { get; set; }
         public int Quantity { get; set; }
         public DateTime DateOfSale { get; set; }
         public MongoDBRef Worker { get; set; }

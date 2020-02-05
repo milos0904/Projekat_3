@@ -1,9 +1,4 @@
-﻿using MongoDB.Driver;
-using MongoDB.Bson;
-using MongoDB.Driver.Builders;
-using MongoDB.Driver.Linq;
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,16 +14,74 @@ namespace BetPharm
     {
         public Form1()
         {
+            
             InitializeComponent();
         }
 
-      
+
         private void btnLekovi_Click(object sender, EventArgs e)
         {
-            var connectionString = "mongodb://localhost/?safe=true";
+            MedicamentForm medicamentForm = new MedicamentForm();
+            medicamentForm.ShowDialog();
+        }
 
-            var client = new MongoClient(connectionString);
-            var database = client.GetDatabase("apoteka");
+        private void btnListaLekova_Click(object sender, EventArgs e)
+        {
+            MedicamentList m = new MedicamentList();
+            m.ShowDialog();
+
+
+        }
+
+
+
+        private void btnPronadjiLek_Click(object sender, EventArgs e)
+        {
+            MedicamentList m = new MedicamentList(txtNazivLeka.Text);
+            m.ShowDialog();
+            txtNazivLeka.Text = "Naziv leka";
+        }
+
+
+        private void txtNazivLeka_Click(object sender, EventArgs e)
+        {
+            txtNazivLeka.Text = "";
+        }
+
+        private void txtNazivLeka_MouseLeave(object sender, EventArgs e)
+        {
+            txtNazivLeka.Text = "Naziv leka";
+        }
+
+        private void txtNazivLeka_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsDigit(e.KeyChar))
+                e.Handled = true;
+        }
+
+        private void btnVanRokTrajanja_Click(object sender, EventArgs e)
+        {
+            IstekaoRokTrajanja i = new IstekaoRokTrajanja();
+            i.ShowDialog();
+        }
+
+
+
+        private void btnEditWorkers_Click(object sender, EventArgs e)
+        {
+            ViewAndEditWorker w = new ViewAndEditWorker();
+            w.ShowDialog();
+        }
+
+        private void btnEvidencija_Click(object sender, EventArgs e)
+        {
+            EvidencijaOProdaji f = new EvidencijaOProdaji();
+            f.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

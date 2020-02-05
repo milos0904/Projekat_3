@@ -9,10 +9,7 @@ E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\Crc32C.NET.dll
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\DnsClient.dll
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Bson.dll
-E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Driver.Core.dll
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Driver.dll
-E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Driver.Legacy.dll
-E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Libmongocrypt.dll
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\SharpCompress.dll
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\Snappy.NET.dll
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\System.Buffers.dll
@@ -20,8 +17,6 @@ E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\DnsClient.xml
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Bson.xml
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Driver.xml
-E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Driver.Core.xml
-E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Driver.Legacy.xml
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\Snappy.NET.xml
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\System.Buffers.xml
 E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.csproj.CopyComplete
@@ -56,3 +51,49 @@ C:\Users\Dejan\Desktop\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.csproj.Ge
 C:\Users\Dejan\Desktop\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.csproj.CopyComplete
 C:\Users\Dejan\Desktop\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.exe
 C:\Users\Dejan\Desktop\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.pdb
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.MedicamentForm.resources
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.MedicamentList.resources
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.AddWorker.resources
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Bson.pdb
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Driver.pdb
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.SoldInfo.resources
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.IstekaoRokTrajanja.resources
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.editWorker.resources
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.ViewAndEditWorker.resources
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\mongocrypt.dll
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\BetPharm.exe.config
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\BetPharm.exe
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\BetPharm.pdb
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\Crc32C.NET.dll
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\DnsClient.dll
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\SharpCompress.dll
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\Snappy.NET.dll
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\System.Buffers.dll
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\Crc32C.NET.xml
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\DnsClient.xml
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Bson.pdb
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Bson.xml
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Driver.pdb
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\MongoDB.Driver.xml
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\Snappy.NET.xml
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\bin\Debug\System.Buffers.xml
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.csprojAssemblyReference.cache
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.AddWorker.resources
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.editWorker.resources
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.Form1.resources
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.IstekaoRokTrajanja.resources
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.MedicamentForm.resources
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.MedicamentList.resources
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.SoldInfo.resources
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.Properties.Resources.resources
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.ViewAndEditWorker.resources
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.csproj.GenerateResource.cache
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.csproj.CopyComplete
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.exe
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.pdb
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.EvidencijaOProdaji.resources
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.FormForAdmin.resources
+E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.Login.resources
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.EvidencijaOProdaji.resources
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.FormForAdmin.resources
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.Login.resources
