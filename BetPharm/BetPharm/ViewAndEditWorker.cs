@@ -83,6 +83,9 @@ namespace BetPharm
                 MessageBox.Show("Trazeni radnik ne postoji");
             }
 
+            txtName.Text = "";
+            txtSurname.Text = "";
+
         }
     }
 }
