@@ -94,3 +94,6 @@ E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPhar
 E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.EvidencijaOProdaji.resources
 E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.FormForAdmin.resources
 E:\fax\IV godina\VII semestar\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.Login.resources
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.EvidencijaOProdaji.resources
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.FormForAdmin.resources
+E:\Fakultet\Semestar VII\Napredne baze podataka\Projekat_3\BetPharm\BetPharm\obj\Debug\BetPharm.Login.resources
