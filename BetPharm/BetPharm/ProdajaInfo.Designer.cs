@@ -29,9 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnProdajLek = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
@@ -45,15 +43,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Unesite kolicinu";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(52, 89);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Unesite vas kod";
-            // 
             // numericUpDown1
             // 
             this.numericUpDown1.Location = new System.Drawing.Point(153, 45);
@@ -61,16 +50,9 @@
             this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown1.TabIndex = 2;
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(153, 89);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(120, 20);
-            this.textBox1.TabIndex = 3;
-            // 
             // btnProdajLek
             // 
-            this.btnProdajLek.Location = new System.Drawing.Point(153, 125);
+            this.btnProdajLek.Location = new System.Drawing.Point(153, 90);
             this.btnProdajLek.Name = "btnProdajLek";
             this.btnProdajLek.Size = new System.Drawing.Size(120, 23);
             this.btnProdajLek.TabIndex = 4;
@@ -82,16 +64,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(371, 191);
+            this.ClientSize = new System.Drawing.Size(371, 157);
             this.Controls.Add(this.btnProdajLek);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "SoldInfo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Sold info";
-            this.Load += new System.EventHandler(this.SoldInfo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -101,9 +80,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btnProdajLek;
     }
 }

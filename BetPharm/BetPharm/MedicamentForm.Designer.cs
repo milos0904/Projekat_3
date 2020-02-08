@@ -36,11 +36,9 @@
             this.lblQuantity = new System.Windows.Forms.Label();
             this.lblDDD = new System.Windows.Forms.Label();
             this.lblAproved = new System.Windows.Forms.Label();
-            this.lblWorker = new System.Windows.Forms.Label();
             this.txtNaziv = new System.Windows.Forms.TextBox();
             this.txtProizvodjac = new System.Windows.Forms.TextBox();
             this.txtOdobrio = new System.Windows.Forms.TextBox();
-            this.txtKodRadnika = new System.Windows.Forms.TextBox();
             this.DateTimeRokTrajanja = new System.Windows.Forms.DateTimePicker();
             this.numericUpDownDDD = new System.Windows.Forms.NumericUpDown();
             this.numericUpDownCena = new System.Windows.Forms.NumericUpDown();
@@ -134,16 +132,6 @@
             this.lblAproved.TabIndex = 4;
             this.lblAproved.Text = "Odobrio";
             // 
-            // lblWorker
-            // 
-            this.lblWorker.AutoSize = true;
-            this.lblWorker.Location = new System.Drawing.Point(14, 284);
-            this.lblWorker.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblWorker.Name = "lblWorker";
-            this.lblWorker.Size = new System.Drawing.Size(46, 13);
-            this.lblWorker.TabIndex = 8;
-            this.lblWorker.Text = "Vas kod";
-            // 
             // txtNaziv
             // 
             this.txtNaziv.Location = new System.Drawing.Point(116, 36);
@@ -170,14 +158,6 @@
             this.txtOdobrio.Size = new System.Drawing.Size(91, 20);
             this.txtOdobrio.TabIndex = 11;
             this.txtOdobrio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtOdobrio_KeyPress);
-            // 
-            // txtKodRadnika
-            // 
-            this.txtKodRadnika.Location = new System.Drawing.Point(116, 284);
-            this.txtKodRadnika.Margin = new System.Windows.Forms.Padding(2);
-            this.txtKodRadnika.Name = "txtKodRadnika";
-            this.txtKodRadnika.Size = new System.Drawing.Size(91, 20);
-            this.txtKodRadnika.TabIndex = 12;
             // 
             // DateTimeRokTrajanja
             // 
@@ -228,10 +208,10 @@
             // 
             // btnDodaj
             // 
-            this.btnDodaj.Location = new System.Drawing.Point(80, 323);
+            this.btnDodaj.Location = new System.Drawing.Point(116, 294);
             this.btnDodaj.Margin = new System.Windows.Forms.Padding(2);
             this.btnDodaj.Name = "btnDodaj";
-            this.btnDodaj.Size = new System.Drawing.Size(78, 32);
+            this.btnDodaj.Size = new System.Drawing.Size(90, 32);
             this.btnDodaj.TabIndex = 18;
             this.btnDodaj.Text = "Dodaj";
             this.btnDodaj.UseVisualStyleBackColor = true;
@@ -269,11 +249,9 @@
             this.Controls.Add(this.numericUpDownCena);
             this.Controls.Add(this.numericUpDownDDD);
             this.Controls.Add(this.DateTimeRokTrajanja);
-            this.Controls.Add(this.txtKodRadnika);
             this.Controls.Add(this.txtOdobrio);
             this.Controls.Add(this.txtProizvodjac);
             this.Controls.Add(this.txtNaziv);
-            this.Controls.Add(this.lblWorker);
             this.Controls.Add(this.lblPrice);
             this.Controls.Add(this.lblQuantity);
             this.Controls.Add(this.lblDDD);
@@ -306,11 +284,9 @@
         private System.Windows.Forms.Label lblQuantity;
         private System.Windows.Forms.Label lblDDD;
         private System.Windows.Forms.Label lblAproved;
-        private System.Windows.Forms.Label lblWorker;
         private System.Windows.Forms.TextBox txtNaziv;
         private System.Windows.Forms.TextBox txtProizvodjac;
         private System.Windows.Forms.TextBox txtOdobrio;
-        private System.Windows.Forms.TextBox txtKodRadnika;
         private System.Windows.Forms.DateTimePicker DateTimeRokTrajanja;
         private System.Windows.Forms.NumericUpDown numericUpDownDDD;
         private System.Windows.Forms.NumericUpDown numericUpDownCena;

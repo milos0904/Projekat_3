@@ -12,16 +12,24 @@ namespace BetPharm
 {
     public partial class Form1 : Form
     {
+        private string kodRadnika;
+
         public Form1()
         {
-            
+            kodRadnika = "";
+            InitializeComponent();
+        }
+
+        public Form1(string s)
+        {
+            kodRadnika = s;
             InitializeComponent();
         }
 
 
         private void btnLekovi_Click(object sender, EventArgs e)
         {
-            MedicamentForm medicamentForm = new MedicamentForm();
+            MedicamentForm medicamentForm = new MedicamentForm(kodRadnika);
             medicamentForm.ShowDialog();
         }
 
@@ -37,7 +45,7 @@ namespace BetPharm
 
         private void btnPronadjiLek_Click(object sender, EventArgs e)
         {
-            MedicamentList m = new MedicamentList(txtNazivLeka.Text);
+            MedicamentList m = new MedicamentList(txtNazivLeka.Text,kodRadnika);
             m.ShowDialog();
             txtNazivLeka.Text = "Naziv leka";
         }

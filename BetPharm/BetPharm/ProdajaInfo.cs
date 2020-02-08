@@ -17,14 +17,16 @@ namespace BetPharm
     public partial class SoldInfo : Form
     {
         ObjectId idLeka;
-
+        string kodRadnika;
         public SoldInfo()
         {
+            kodRadnika = "";
             InitializeComponent();
         }
-        public SoldInfo(ObjectId id)
+        public SoldInfo(ObjectId id,string kod)
         {
             idLeka = id;
+            kodRadnika = kod;
             InitializeComponent();
         }
 
@@ -37,16 +39,12 @@ namespace BetPharm
                 MessageBox.Show("Kolicina mora biti veca od 0");
                 return;
             }
-            if( textBox1.Text == "")
-            {
-                MessageBox.Show("Unesite vas kod");
-                return;
-            }
+           
 
             var collectionWorker = db.GetCollection<Worker>("radnici");
 
             Worker w = null;
-            w = collectionWorker.FindOne(Query.EQ("WorkerCode", BsonValue.Create(textBox1.Text)));
+            w = collectionWorker.FindOne(Query.EQ("WorkerCode", BsonValue.Create(kodRadnika)));
 
             if(w == null)
             {
@@ -82,15 +80,12 @@ namespace BetPharm
             collection.Update(query, update);
 
             numericUpDown1.Value = 0;
-            textBox1.Text = "";
+         
 
             MessageBox.Show("Uspesno ste prodali lek. Zatvaram...");
             this.Close();
         }
 
-        private void SoldInfo_Load(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

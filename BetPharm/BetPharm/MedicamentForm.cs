@@ -15,11 +15,17 @@ namespace BetPharm
 {
     public partial class MedicamentForm : Form
     {
+        string kodRadnika;
         public MedicamentForm()
         {
+            kodRadnika = "";
             InitializeComponent();
         }
-
+        public MedicamentForm(string s)
+        {
+            kodRadnika = s;
+            InitializeComponent();
+        }
         private void btnDodaj_Click(object sender, EventArgs e)
         {
              var database = DataLayer.GetDataBase();
@@ -44,7 +50,7 @@ namespace BetPharm
             bool fleg = false;
             foreach (Worker w in workers)
             {
-                if (w.WorkerCode.Equals(txtKodRadnika.Text))
+                if (w.WorkerCode.Equals(kodRadnika))
                 {
                     m.Worker = new MongoDBRef("radnici", w.Id);
                     fleg = true;
@@ -67,7 +73,6 @@ namespace BetPharm
                 numericUpDownDDD.Value = 0;
                 numericUpDownCena.Value = 0;
                 numericUpDownKolicina.Value = 0;
-                txtKodRadnika.Text = "";
                 txtOdobrio.Text = "";
             }
             else

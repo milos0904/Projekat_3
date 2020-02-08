@@ -36,7 +36,7 @@ namespace BetPharm
                     if (w.Employed == true)
                     {
                         this.Hide();
-                        Form1 f = new Form1();
+                        Form1 f = new Form1(txtCode.Text);
                         f.ShowDialog();
                         txtUsername.Text = "";
                         txtCode.Text = "";

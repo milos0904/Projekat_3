@@ -14,16 +14,18 @@ namespace BetPharm
 {
     public partial class MedicamentList : Form
     {
-        private String nazivLeka;
-
+        private string nazivLeka;
+        private string kodRadnika;
         public MedicamentList()
         {
             nazivLeka = "";
+            kodRadnika = "";
             InitializeComponent();
         }
 
-        public MedicamentList(String s)
+        public MedicamentList(string s, string kod)
         {
+            kodRadnika = kod;
             nazivLeka = s;
             InitializeComponent();          
         }
@@ -60,10 +62,10 @@ namespace BetPharm
             listView1.Refresh();
         }      
 
-        private void ProdajLek(ObjectId id)
+        private void ProdajLek(ObjectId id,string kodR)
         {
              
-            SoldInfo p = new SoldInfo(id);
+            SoldInfo p = new SoldInfo(id,kodR);
             p.ShowDialog();
             this.UcitajSveLekove();
            
@@ -83,7 +85,7 @@ namespace BetPharm
             }
             ObjectId  id = MongoDB.Bson.ObjectId.Parse(listView1.SelectedItems[0].SubItems[9].Text);
  
-            this.ProdajLek(id);
+            this.ProdajLek(id,kodRadnika);
         }
     }
 }
